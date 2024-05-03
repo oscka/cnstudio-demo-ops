@@ -7,5 +7,5 @@ resources:
 - node-api-svc.yaml
 
 images:
-- name: oscka/java-node-api
+- name: oscka/node-demo-api
   newTag: "v0.1"
