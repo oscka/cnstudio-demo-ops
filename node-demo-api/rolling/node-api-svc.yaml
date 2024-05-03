@@ -2,11 +2,11 @@ apiVersion: v1
 kind: Service
 
 metadata:
-  name: java-node-api-svc
+  name: node-demo-api-svc
   namespace: nodeapi
 spec:
   selector:
-    app: java-node-api
+    app: node-demo-api
   
   ports:
   - protocol: TCP
