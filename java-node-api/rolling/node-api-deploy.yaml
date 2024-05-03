@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-node-api
+  namespace: api    
+  
+  labels:
+    app: java-node-api
+    
+   
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: java-node-api
+  template:
+    metadata:
+      
+      labels:
+        app: java-node-api     
+      
+
+    spec:
+      containers:
+        - name: java-node-api
+          image: oscka/java-node-api
+          ports:
+          - name: http
+            containerPort: 3000
