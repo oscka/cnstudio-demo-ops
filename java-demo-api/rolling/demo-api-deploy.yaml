@@ -27,6 +27,3 @@ spec:
           ports:
           - name: http
             containerPort: 8080
-          envFrom:
-            - configMapRef:
-                name: demo-api-configmap
