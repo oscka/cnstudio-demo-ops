@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: java-node-api
-  namespace: api    
+  namespace: nodeapi    
   
   labels:
     app: java-node-api

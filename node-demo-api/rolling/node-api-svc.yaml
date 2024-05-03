@@ -3,7 +3,7 @@ kind: Service
 
 metadata:
   name: java-node-api-svc
-  namespace: api
+  namespace: nodeapi
 spec:
   selector:
     app: java-node-api
